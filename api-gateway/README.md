@@ -27,20 +27,20 @@
 	- Authorizers
 	- Modles
 		- `Template Mapping과 관련된 데이터 형식을 정의`하는 곳
-		- ```json
-		{
-		  "$schema" : "http://json-schema.org/draft-04/schema#",
-		  "title" : "Company",
-		  "type" : "object",
-		  "properties" : {
-		    "index" : { "type" : "integer" },
-		    "name" : { "type" : "string" },
-		    "url" : { "type" : "string" },
-		    "description" : { "type" : "string" }
-		  },
-		  "required": ["index", "name", "url", "description"]
-		}
-		```
+			```json
+			{
+			  "$schema" : "http://json-schema.org/draft-04/schema#",
+			  "title" : "Company",
+			  "type" : "object",
+			  "properties" : {
+			    "index" : { "type" : "integer" },
+			    "name" : { "type" : "string" },
+			    "url" : { "type" : "string" },
+			    "description" : { "type" : "string" }
+			  },
+			  "required": ["index", "name", "url", "description"]
+			}
+			```
 	- Documentation
 	- Binary Support
 	- Dashboard
