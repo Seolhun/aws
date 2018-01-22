@@ -43,11 +43,11 @@ If you use a different file name AND/OR different starting handler function, you
 
 2. If you check the lambda proxy
 	- Must have headers, like this.
-	- ```javascript
-	exports.handler = (event, context, callback) => {
-    	callback(null, {headers: {'Control-Access-Allow-Origin': '*'}});
-	};
-	```
+		```javascript
+		exports.handler = (event, context, callback) => {
+	    	callback(null, {headers: {'Control-Access-Allow-Origin': '*'}});
+		};
+		```
 
 
 ## Reference
