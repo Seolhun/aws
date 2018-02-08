@@ -1,8 +1,7 @@
 # AWS Some Product Summary To Use
-
 - Author : [SeolHun](https://github.com/SeolHun)
 - Date : 2017.10.12
----
+
 ## Server
 #### 1. EC2(Elastic Compute Cloud)
 - 내용
@@ -31,7 +30,6 @@
 #### - Auto Scailing
 - 내용
 	- Auto Scaling을 사용하면 애플리케이션 가용성을 유지하는 데 도움이 되며, **사용자가 정의한 조건**에 따라 자동으로 Amazon EC2 용량을 급격하게 확장 또는 축소할 수 있습니다. 또한, **EC2 인스턴스의 동적 조장**을 위해 Auto Scaling을 사용하면 수요가 급증할 때는 Amazon EC2 인스턴스 수를 자동으로 늘려 성능을 유지하고 수요가 잠잠해지면 용량을 줄여 비용을 절감할 수 있습니다.
-
 
 #### 2. Lambda
 - 내용
@@ -66,7 +64,7 @@
 2. 보안
 	- In-Bound, Out-Bound 필터링 사용 가능
 
----
+
 ## Storage
 #### 1. S3
 - 내용
@@ -100,7 +98,6 @@
 	- 페타바이트 규모의 데이터 전송에는 [AWS Snowball](https://aws.amazon.com/ko/snowball/) 및 [AWS Snowball Edge](https://aws.amazon.com/ko/snowball-edge/) 어플라이언스를 사용, 이보다 더 큰 데이터 세트에는 [AWS Snowmobile](https://aws.amazon.com/ko/snowmobile/)을 사용가능
 	- [AWS Storage Gateway](https://aws.amazon.com/ko/storagegateway/)는 온프레미스에서 볼륨이나 파일을 AWS 클라우드로 손쉽게 이동할 수 있는 물리적 또는 가상 어플라이언스를 제공
 
-
 #### 2. EBS(Elastic Block Store)
 - 내용
 	- Amazon Elastic Block Store(EBS)는 AWS 클라우드의 Amazon EC2 인스턴스에 사용할 영구 블록 스토리지 볼륨을 제공합니다. 각 Amazon EBS 볼륨은 가용 영역 내에 자동으로 복제되어 구성요소 장애로부터 보호하고, 고가용성 및 내구성을 제공합니다. Amazon EBS 볼륨은 워크로드 실행에 필요한 지연 시간이 짧고 일관된 성능을 제공합니다. 
@@ -126,7 +123,6 @@
 3. AWS Security를 통환 보안
 
 
---- 
 ## DataBase
 #### 1. RDS
 - 내용
@@ -540,4 +536,6 @@
 
 ---
 ## Reference
-[AWS](https://aws.amazon.com/ko/?nc2=h_lg)
+- [AWS](https://aws.amazon.com/ko/?nc2=h_lg)
+- [AWS Official Commands](https://docs.aws.amazon.com/cli/latest/index.html)
+- [AWS Command Line Interface에서 상위 수준 s3 명령 사용](https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/using-s3-commands.html)
