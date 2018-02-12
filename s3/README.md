@@ -31,7 +31,7 @@ s3.createBucket({
 
 2. Put Objects with `AWS Command`
 ```bash
-aws s3 sync ./.out-storybook s3://$BUCKET_NAME/$DATE/$CURRENT_BRANCH_NAME --profile hunseol
+aws s3 sync ./out-storybook s3://$BUCKET_NAME/$DATE/$CURRENT_BRANCH_NAME --profile hunseol
 
 ```
 
